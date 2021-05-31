@@ -1,0 +1,41 @@
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .box {
+      margin-top: 200px;
+  }
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+#Logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.magnify {
+    position:absolute;
+    align-self:center;
+    height: 20px;
+    opacity: 0.3;
+    margin-left: -315px;
+    margin-top: 10px;
+}
+
+#search-box {
+    margin: auto 30px;
+    font-size: 15px;
+    flex:content;
+    height: 45px;
+    border: 1.5px solid #e4e4e4;
+    border-radius: 50px;
+    padding-left: 45px;
+    width:35%;
+}
